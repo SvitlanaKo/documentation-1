@@ -99,12 +99,13 @@ This section provides links to the online documentation for the latest OroCommer
             </p>
           </div>
       </div>
-   </div>
-
- Table of Contents
- -----------------
+   </div>   
 
 .. container:: hiddendocmenu
+
+    .. raw:: html
+
+        <div><h2>Table of Contents></h2></div>
 
     .. toctree::
         :includehidden:
