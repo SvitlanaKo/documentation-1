@@ -101,10 +101,10 @@ This section provides links to the online documentation for the latest OroCommer
       </div>
    </div>
    
-Table of Contents
------------------
-
 .. container:: hiddendocmenu
+
+    Table of Contents
+    -----------------
 
     .. toctree::
         :includehidden:
