@@ -101,7 +101,7 @@ This section provides links to the online documentation for the latest OroCommer
       </div>
    </div>   
 
-.. container:: hiddendocmenu
+.. container:: hidden
 
     .. raw:: html
 
