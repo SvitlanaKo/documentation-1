@@ -4,7 +4,7 @@
 System Requirements
 ===================
 
-OroCRM is a web application which runs on a server. Users interact with the application via a web browser on any computer or mobile device that have access to the internet or the network where the server is hosted.
+OroCommerce is a web application which runs on a server. Users interact with the application via a web browser on any computer or mobile device that have access to the internet or the network where the server is hosted.
 
 
 Server-side Requirements
@@ -28,7 +28,7 @@ Oro applications are compatible with most web servers with PHP support, but we r
 |                   | Web server configuration recommendations are well |
 |                   | described in `Symfony documentation`_             |
 +-------------------+---------------------------------------------------+
-| *PHP*             | * `PHP`_ 5.6 and above                            |
+| *PHP*             | * `PHP`_ 7.X                                      |
 |                   | * PHP CLI, the same version as for the web server |
 +-------------------+---------------------------------------------------+
 | *PHP Settings*    | Few updates to default PHP configuration settings |
@@ -86,6 +86,7 @@ Enterprise edition is built to support better scale and performance. It is compa
 PostgreSQL `uuid-ossp` extension should be loaded for proper doctrine's `guid` type handling. In order to enable it, connect to the database server and run sql query:
 
 .. code-block:: sql
+    :linenos:
 
     CREATE EXTENSION "uuid-ossp";
 
